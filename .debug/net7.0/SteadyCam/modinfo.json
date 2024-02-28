@@ -1,0 +1,21 @@
+{
+  "type": "Code",
+  "name": "SteadyCam",
+  "modId": "steadycam",
+  "side": "Universal",
+  "description": "Additions, tweaks, and fixes, for camera accounts in Spectator Mode.",
+  "version": "1.3.0",
+  "website": "https://apachegaming.net",
+  "authors": [
+    "ApacheTech Solutions"
+  ],
+  "contributors": [
+    "Apache"
+  ],
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "networkVersion": "1.0.0",
+  "dependencies": {
+    "game": "1.19.3"
+  }
+}
