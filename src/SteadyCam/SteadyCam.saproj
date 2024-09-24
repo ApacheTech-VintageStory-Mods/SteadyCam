@@ -1227,7 +1227,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Microsoft.Bcl.AsyncInterfaces, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />
