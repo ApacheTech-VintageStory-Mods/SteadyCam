@@ -1,10 +1,8 @@
 ﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using Gantry.Core;
-using Gantry.Core.DependencyInjection;
-using Gantry.Services.HarmonyPatches.DependencyInjection;
+using Gantry.Core.Hosting;
+using Gantry.Services.HarmonyPatches.Hosting;
 using JetBrains.Annotations;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
 
 namespace ApacheTech.VintageMods.SteadyCam;
 
@@ -21,15 +19,16 @@ namespace ApacheTech.VintageMods.SteadyCam;
 /// </remarks>
 /// <seealso cref="ModHost" />
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-internal sealed class Program : ModHost
+internal sealed class Program() : ModHost(
+#if DEBUG
+    debugMode: true
+#else
+    debugMode: false
+#endif
+)
 {
     protected override void ConfigureUniversalModServices(IServiceCollection services, ICoreAPI api)
     {
-        services.AddHarmonyPatchingService(o => o.AutoPatchModAssembly = true);
-#if DEBUG
-        RuntimeEnv.DebugOutOfRangeBlockAccess = true;
-        HarmonyLib.Harmony.DEBUG = true;
-        ModEx.DebugMode = true;
-#endif
+        services.AddHarmonyPatchingService(api, o => o.AutoPatchModAssembly = true);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Gantry.Core.ModSystems;
+﻿using Gantry.Core.Extensions;
+using Gantry.Core.ModSystems;
 using Gantry.Services.HarmonyPatches.Annotations;
 using HarmonyLib;
 using JetBrains.Annotations;
@@ -48,7 +49,7 @@ public class TemporalStabilityFixUniversal : UniversalModSystem
     [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), nameof(EntityBehaviorTemporalStabilityAffected.OwnStability), MethodType.Getter)]
     public static void Harmony_EntityBehaviorTemporalStabilityAffected_get_OwnStability_Postfix(Entity ___entity, ref double __result)
     {
-        if (!IsSpectator(___entity)) return;
+        if (!___entity.IsSpectator()) return;
         __result = 1.0;
     }
 
@@ -59,7 +60,7 @@ public class TemporalStabilityFixUniversal : UniversalModSystem
     [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), nameof(EntityBehaviorTemporalStabilityAffected.OwnStability), MethodType.Setter)]
     public static void Harmony_EntityBehaviorTemporalStabilityAffected_set_OwnStability_Postfix(Entity ___entity)
     {
-        if (!IsSpectator(___entity)) return;
+        if (!___entity.IsSpectator()) return;
         ___entity.WatchedAttributes.SetDouble("temporalStability", 1.0);
     }
 
@@ -70,7 +71,7 @@ public class TemporalStabilityFixUniversal : UniversalModSystem
     [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), nameof(EntityBehaviorTemporalStabilityAffected.TempStabChangeVelocity), MethodType.Getter)]
     public static void Harmony_EntityBehaviorTemporalStabilityAffected_get_TempStabChangeVelocity_Postfix(Entity ___entity, ref double __result)
     {
-        if (!IsSpectator(___entity)) return;
+        if (!___entity.IsSpectator()) return;
         __result = 0d;
     }
 
@@ -81,15 +82,7 @@ public class TemporalStabilityFixUniversal : UniversalModSystem
     [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), nameof(EntityBehaviorTemporalStabilityAffected.TempStabChangeVelocity), MethodType.Setter)]
     public static void Harmony_EntityBehaviorTemporalStabilityAffected_set_TempStabChangeVelocity_Postfix(Entity ___entity)
     {
-        if (!IsSpectator(___entity)) return;
+        if (!___entity.IsSpectator()) return;
         ___entity.Attributes.SetDouble("tempStabChangeVelocity", 0d);
-    }
-
-    private static bool IsSpectator(Entity entity)
-    {
-        return entity is EntityPlayer
-        {
-            Player.WorldData.CurrentGameMode: EnumGameMode.Spectator
-        };
     }
 }
