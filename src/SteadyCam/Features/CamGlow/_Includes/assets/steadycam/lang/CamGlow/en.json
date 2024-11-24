@@ -1,0 +1,5 @@
+{
+  "Features.CamGlow.Command.Brightness": "Change the brightness of the glow.",
+  "Features.CamGlow.Command.Colour": "Change the colour of the glow.",
+  "Features.CamGlow.Command.Enabled": "Toggle the glowing effect."
+}

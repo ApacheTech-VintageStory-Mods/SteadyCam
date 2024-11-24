@@ -1,0 +1,5 @@
+{
+  "Features.CamGlow.Command.Brightness": "改变光晕的亮度。",
+  "Features.CamGlow.Command.Colour": "改变光晕的颜色。",
+  "Features.CamGlow.Command.Enabled": "切换光晕效果。"
+}
