@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "حدد هدفًا لتركز عليه الكاميرا أثناء تحركها على المسار.",
+  "Features.CamTarget.TargetSet": "تم تعيين موقع الهدف.",
+  "Features.CamTarget.TargetNotSet": "لم يتم تعيين موقع الهدف بعد.",
+  "Features.CamTarget.TargetFacing": "تم التوجه نحو موقع الهدف.",
+  "Features.CamTarget.TargetTeleport": "تم الانتقال إلى موقع الهدف.",
+  "Features.CamTarget.TargetCleared": "تم مسح موقع الهدف."
+}

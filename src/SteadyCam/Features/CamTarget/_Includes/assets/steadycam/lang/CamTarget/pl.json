@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Ustaw cel, na którym kamera skupi się, podczas gdy przemieszcza się po ścieżce.",
+  "Features.CamTarget.TargetSet": "Pozycja celu ustawiona.",
+  "Features.CamTarget.TargetNotSet": "Pozycja celu nie została jeszcze ustawiona.",
+  "Features.CamTarget.TargetFacing": "Obrócono, aby stanąć naprzeciw pozycji celu.",
+  "Features.CamTarget.TargetTeleport": "Teleportowano do pozycji celu.",
+  "Features.CamTarget.TargetCleared": "Pozycja celu usunięta."
+}

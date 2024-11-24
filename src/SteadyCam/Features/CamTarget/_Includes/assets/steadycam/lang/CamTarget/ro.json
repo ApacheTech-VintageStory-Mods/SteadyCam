@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Setați un țel pe care camera se va concentra în timp ce parcurge calea.",
+  "Features.CamTarget.TargetSet": "Poziția țelului setată.",
+  "Features.CamTarget.TargetNotSet": "Poziția țelului nu a fost setată încă.",
+  "Features.CamTarget.TargetFacing": "Întors pentru a înfrunta poziția țelului.",
+  "Features.CamTarget.TargetTeleport": "Teletransportat la poziția țelului.",
+  "Features.CamTarget.TargetCleared": "Poziția țelului ștearsă."
+}

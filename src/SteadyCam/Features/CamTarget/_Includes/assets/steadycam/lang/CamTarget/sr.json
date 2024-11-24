@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Postavite cilj na koji će se kamera fokusirati dok prelazi putem.",
+  "Features.CamTarget.TargetSet": "Pozicija cilja postavljena.",
+  "Features.CamTarget.TargetNotSet": "Pozicija cilja još nije postavljena.",
+  "Features.CamTarget.TargetFacing": "Okrenuto ka poziciji cilja.",
+  "Features.CamTarget.TargetTeleport": "Teleportovano na poziciju cilja.",
+  "Features.CamTarget.TargetCleared": "Pozicija cilja obrisana."
+}

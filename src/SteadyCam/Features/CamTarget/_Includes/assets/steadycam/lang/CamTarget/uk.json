@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Встановіть ціль, на яку камера буде фокусуватися під час руху по шляху.",
+  "Features.CamTarget.TargetSet": "Цільова позиція встановлена.",
+  "Features.CamTarget.TargetNotSet": "Цільова позиція ще не встановлена.",
+  "Features.CamTarget.TargetFacing": "Поворот до цільової позиції.",
+  "Features.CamTarget.TargetTeleport": "Телепортування до цільової позиції.",
+  "Features.CamTarget.TargetCleared": "Цільова позиція очищена."
+}

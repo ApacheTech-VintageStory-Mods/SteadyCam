@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Agordu celon, al kiu la kamero fokusiĝos dum ĝi vojaĝas laŭ la vojo.",
+  "Features.CamTarget.TargetSet": "Celo pozicio agordita.",
+  "Features.CamTarget.TargetNotSet": "Celo pozicio ankoraŭ ne agordita.",
+  "Features.CamTarget.TargetFacing": "Turnis por alfronti la celon.",
+  "Features.CamTarget.TargetTeleport": "Teletransportita al la celo.",
+  "Features.CamTarget.TargetCleared": "Celo pozicio malplenigita."
+}

@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Establece un objetivo para que la cámara se enfoque mientras recorre el camino.",
+  "Features.CamTarget.TargetSet": "Posición de objetivo establecida.",
+  "Features.CamTarget.TargetNotSet": "Posición de objetivo aún no establecida.",
+  "Features.CamTarget.TargetFacing": "Girado para enfrentarse a la posición del objetivo.",
+  "Features.CamTarget.TargetTeleport": "Teletransportado a la posición del objetivo.",
+  "Features.CamTarget.TargetCleared": "Posición del objetivo despejada."
+}

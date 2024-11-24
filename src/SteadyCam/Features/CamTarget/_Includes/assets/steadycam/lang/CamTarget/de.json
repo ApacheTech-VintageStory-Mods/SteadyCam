@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Setzen Sie ein Ziel, auf das die Kamera fokussiert, während sie den Pfad entlang fährt.",
+  "Features.CamTarget.TargetSet": "Zielposition gesetzt.",
+  "Features.CamTarget.TargetNotSet": "Zielposition noch nicht gesetzt.",
+  "Features.CamTarget.TargetFacing": "Auf Zielposition ausgerichtet.",
+  "Features.CamTarget.TargetTeleport": "Zu Zielposition teleportiert.",
+  "Features.CamTarget.TargetCleared": "Zielposition gelöscht."
+}

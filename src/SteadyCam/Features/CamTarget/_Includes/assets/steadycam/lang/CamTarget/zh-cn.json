@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "设置相机在沿路径移动时聚焦的目标。",
+  "Features.CamTarget.TargetSet": "目标位置已设置。",
+  "Features.CamTarget.TargetNotSet": "目标位置尚未设置。",
+  "Features.CamTarget.TargetFacing": "转向目标位置。",
+  "Features.CamTarget.TargetTeleport": "传送到目标位置。",
+  "Features.CamTarget.TargetCleared": "目标位置已清除。"
+}

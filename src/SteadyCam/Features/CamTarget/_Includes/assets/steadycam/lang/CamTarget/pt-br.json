@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Defina um alvo para o qual a câmera se concentrará enquanto percorre o caminho.",
+  "Features.CamTarget.TargetSet": "Posição do alvo definida.",
+  "Features.CamTarget.TargetNotSet": "Posição do alvo ainda não definida.",
+  "Features.CamTarget.TargetFacing": "Virado para a posição do alvo.",
+  "Features.CamTarget.TargetTeleport": "Teletransportado para a posição do alvo.",
+  "Features.CamTarget.TargetCleared": "Posição do alvo apagada."
+}

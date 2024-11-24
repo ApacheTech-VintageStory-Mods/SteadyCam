@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "경로를 따라 이동하는 동안 카메라가 초점을 맞출 대상을 설정합니다.",
+  "Features.CamTarget.TargetSet": "대상 위치 설정됨.",
+  "Features.CamTarget.TargetNotSet": "대상 위치가 아직 설정되지 않음.",
+  "Features.CamTarget.TargetFacing": "대상 위치로 돌림.",
+  "Features.CamTarget.TargetTeleport": "대상 위치로 텔레포트됨.",
+  "Features.CamTarget.TargetCleared": "대상 위치가 지워짐."
+}

@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Ställ in ett mål som kameran ska fokusera på medan den rör sig längs vägen.",
+  "Features.CamTarget.TargetSet": "Målposition inställd.",
+  "Features.CamTarget.TargetNotSet": "Målposition inte inställd än.",
+  "Features.CamTarget.TargetFacing": "Vänd mot målpositionen.",
+  "Features.CamTarget.TargetTeleport": "Teleporterad till målpositionen.",
+  "Features.CamTarget.TargetCleared": "Målposition rensad."
+}

@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Définissez une cible sur laquelle la caméra se concentrera pendant qu'elle suit le chemin.",
+  "Features.CamTarget.TargetSet": "Position cible définie.",
+  "Features.CamTarget.TargetNotSet": "Position cible non définie.",
+  "Features.CamTarget.TargetFacing": "Tourner pour faire face à la position cible.",
+  "Features.CamTarget.TargetTeleport": "Téléporté à la position cible.",
+  "Features.CamTarget.TargetCleared": "Position cible effacée."
+}

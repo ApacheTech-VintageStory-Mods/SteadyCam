@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "カメラがパスを移動している間、焦点を合わせるターゲットを設定します。",
+  "Features.CamTarget.TargetSet": "ターゲット位置が設定されました。",
+  "Features.CamTarget.TargetNotSet": "ターゲット位置はまだ設定されていません。",
+  "Features.CamTarget.TargetFacing": "ターゲット位置に向かって回転しました。",
+  "Features.CamTarget.TargetTeleport": "ターゲット位置にテレポートしました。",
+  "Features.CamTarget.TargetCleared": "ターゲット位置がクリアされました。"
+}

@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Nastavte cieľ, na ktorý sa kamera zameria, keď prechádza po ceste.",
+  "Features.CamTarget.TargetSet": "Pozícia cieľa nastavená.",
+  "Features.CamTarget.TargetNotSet": "Pozícia cieľa ešte nebola nastavená.",
+  "Features.CamTarget.TargetFacing": "Otáčanie na cieľovú pozíciu.",
+  "Features.CamTarget.TargetTeleport": "Teleportované na cieľovú pozíciu.",
+  "Features.CamTarget.TargetCleared": "Pozícia cieľa vymazaná."
+}

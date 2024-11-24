@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Nastavte cíl, na který se kamera zaměří při pohybu po cestě.",
+  "Features.CamTarget.TargetSet": "Cíl byl nastaven.",
+  "Features.CamTarget.TargetNotSet": "Cíl zatím nebyl nastaven.",
+  "Features.CamTarget.TargetFacing": "Otáčeno k cílové pozici.",
+  "Features.CamTarget.TargetTeleport": "Teleportováno na cílovou pozici.",
+  "Features.CamTarget.TargetCleared": "Cíl byl vymazán."
+}

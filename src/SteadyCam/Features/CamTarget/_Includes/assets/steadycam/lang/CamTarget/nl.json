@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Stel een doel in waar de camera zich op richt terwijl het het pad volgt.",
+  "Features.CamTarget.TargetSet": "Doelpositie ingesteld.",
+  "Features.CamTarget.TargetNotSet": "Doelpositie nog niet ingesteld.",
+  "Features.CamTarget.TargetFacing": "Gedraaid om de doelpositie aan te kijken.",
+  "Features.CamTarget.TargetTeleport": "Geteleporteerd naar doelpositie.",
+  "Features.CamTarget.TargetCleared": "Doelpositie gewist."
+}

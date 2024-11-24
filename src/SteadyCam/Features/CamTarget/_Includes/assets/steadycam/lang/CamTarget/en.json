@@ -1,0 +1,8 @@
+{
+  "Features.CamTarget.Description": "Set a target for the camera to focus on while it traverses the path.",
+  "Features.CamTarget.TargetSet": "Target position set.",
+  "Features.CamTarget.TargetNotSet": "Target position not yet set.",
+  "Features.CamTarget.TargetFacing": "Turned to face target position.",
+  "Features.CamTarget.TargetTeleport": "Teleported to target position.",
+  "Features.CamTarget.TargetCleared": "Target position cleared."
+}
