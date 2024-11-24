@@ -1,0 +1,4 @@
+{
+  "Features.CamCircle.CircleAdded": "現在位置の周りに円が作成されました。目標を設定することを検討してください。",
+  "Features.CamCircle.Description": "プレイヤーの現在地周辺にポイントの円を作成します。"
+}

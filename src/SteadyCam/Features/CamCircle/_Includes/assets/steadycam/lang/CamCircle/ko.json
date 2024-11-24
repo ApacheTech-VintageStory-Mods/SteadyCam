@@ -1,0 +1,4 @@
+{
+  "Features.CamCircle.CircleAdded": "현재 위치 주위에 원이 생성되었습니다. 목표를 설정하는 것을 고려하세요.",
+  "Features.CamCircle.Description": "플레이어의 현재 위치 주변에 원 모양의 점을 만듭니다."
+}

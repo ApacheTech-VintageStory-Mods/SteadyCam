@@ -1,0 +1,4 @@
+{
+  "Features.CamCircle.CircleAdded": "已在当前位置周围创建圆圈，请考虑设置目标。",
+  "Features.CamCircle.Description": "在玩家当前的位置周围创建一个点的圆圈。"
+}

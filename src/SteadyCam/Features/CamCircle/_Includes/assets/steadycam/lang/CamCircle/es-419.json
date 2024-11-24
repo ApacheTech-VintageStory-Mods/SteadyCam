@@ -1,0 +1,4 @@
+{
+  "Features.CamCircle.CircleAdded": "Se han creado círculos alrededor de tu posición actual, considera establecer un objetivo.",
+  "Features.CamCircle.Description": "Crea un círculo de puntos alrededor de la ubicación actual del jugador."
+}
