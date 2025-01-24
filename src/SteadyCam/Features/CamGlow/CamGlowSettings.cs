@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.SteadyCam.Features.CamGlow;
 /// <summary>
 ///     Configuration settings for the camera glow effect.
 /// </summary>
-public class CamGlowSettings : FeatureSettings
+public class CamGlowSettings : FeatureSettings<CamGlowSettings>
 {
     /// <summary>
     ///     The colour of the camera glow effect.

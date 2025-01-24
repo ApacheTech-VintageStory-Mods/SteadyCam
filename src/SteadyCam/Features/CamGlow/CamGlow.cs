@@ -2,7 +2,7 @@
 
 namespace ApacheTech.VintageMods.SteadyCam.Features.CamGlow;
 
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class CamGlow : ClientModSystem, IClientServiceRegistrar
 {

@@ -2,12 +2,11 @@
 
 namespace ApacheTech.VintageMods.SteadyCam.Features.CamTarget;
 
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class CamTarget : ClientModSystem, IClientServiceRegistrar
 {
     private static CamTargetSettings _settings;
-    private static SystemCinematicCamera _cinematicCamera;
 
     public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
     {
@@ -22,7 +21,6 @@ public class CamTarget : ClientModSystem, IClientServiceRegistrar
     public override void StartClientSide(ICoreClientAPI api)
     {
         _settings = IOC.Services.Resolve<CamTargetSettings>();
-        _cinematicCamera = IOC.Services.Resolve<SystemCinematicCamera>();
 
         api.ChatCommands
              .Get("cam")

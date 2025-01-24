@@ -1,7 +1,8 @@
 <Project>
 	<PropertyGroup Label="Framework Versioning">
 		<TargetFramework>net7.0</TargetFramework>
-		<LangVersion>12</LangVersion>
+		<LangVersion>13</LangVersion>
+		<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Project Configuration">
@@ -93,8 +94,8 @@
 			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-		<Reference Include="System.Data.SQLite">
-			<HintPath>$(EnvironmentVariable)\Lib\System.Data.SQLite.dll</HintPath>
+		<Reference Include="System.Collections.Immutable">
+			<HintPath>$(VINTAGE_STORY)\Lib\System.Collections.Immutable.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="Tavis.JsonPatch">

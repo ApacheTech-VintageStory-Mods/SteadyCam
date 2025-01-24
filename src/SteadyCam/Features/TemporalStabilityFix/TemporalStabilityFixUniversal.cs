@@ -1,18 +1,11 @@
-﻿using Gantry.Core.Extensions;
-using Gantry.Core.ModSystems;
-using Gantry.Services.HarmonyPatches.Annotations;
-using HarmonyLib;
-using JetBrains.Annotations;
-using Vintagestory.API.Common;
-using Vintagestory.API.Common.Entities;
-using Vintagestory.API.Server;
+﻿using Vintagestory.API.Server;
 using Vintagestory.GameContent;
 
 // ReSharper disable InconsistentNaming
 
 namespace ApacheTech.VintageMods.SteadyCam.Features.TemporalStabilityFix;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class TemporalStabilityFixUniversal : UniversalModSystem
 {
