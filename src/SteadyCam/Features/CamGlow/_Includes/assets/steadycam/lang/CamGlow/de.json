@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Ändern Sie die Helligkeit des Leuchtens.",
-  "Features.CamGlow.Command.Colour": "Ändern Sie die Farbe des Leuchtens.",
-  "Features.CamGlow.Command.Enabled": "Schalten Sie den Leuchteffekt ein."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Ändern Sie die Helligkeit des Leuchtens.",
+    "Features.CamGlow.Command.Colour":  "Ändern Sie die Farbe des Leuchtens.",
+    "Features.CamGlow.Command.Enabled":  "Schalten Sie den Leuchteffekt um."
 }

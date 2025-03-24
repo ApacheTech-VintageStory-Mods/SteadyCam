@@ -1,0 +1,5 @@
+﻿{
+    "Features.CamGlow.Command.Brightness":  "更改發光的亮度。",
+    "Features.CamGlow.Command.Colour":  "更改發光的顏色。",
+    "Features.CamGlow.Command.Enabled":  "切換發光效果。"
+}

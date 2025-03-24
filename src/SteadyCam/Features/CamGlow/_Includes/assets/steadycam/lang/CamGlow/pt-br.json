@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Altere o brilho do brilho.",
-  "Features.CamGlow.Command.Colour": "Altere a cor do brilho.",
-  "Features.CamGlow.Command.Enabled": "Ative o efeito de brilho."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Altere o brilho do brilho.",
+    "Features.CamGlow.Command.Colour":  "Mude a cor do brilho.",
+    "Features.CamGlow.Command.Enabled":  "Alterne o efeito brilhante."
 }

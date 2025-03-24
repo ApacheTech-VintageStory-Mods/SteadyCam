@@ -35,7 +35,7 @@ public class CamTarget : ClientModSystem, IClientServiceRegistrar
         var action = (string)args.Parsers[0].GetValue();
         if (action == "set")
         {
-            SetTarget(ApiEx.ClientMain.EntityPlayer.Pos);
+            SetTarget(ApiEx.ClientMain.EntityPlayer.Pos.Copy());
             return TextCommandResult.Success(L("TargetSet"));
         }
 
@@ -81,9 +81,9 @@ public class CamTarget : ClientModSystem, IClientServiceRegistrar
 
     public static void FacePosition(Vec3d targetPos)
     {
-        var entityPos = ApiEx.ClientMain.EntityPlayer.Pos;
+        var entityPos = ApiEx.ClientMain.EntityPlayer.Pos.Copy();
         var pos = entityPos.DirectlyFace(targetPos);
-        ApiEx.ClientMain.TeleportToPoint(pos);
+        TeleportTo(pos);
     }
 
     public static void SetTarget(EntityPos targetPos)

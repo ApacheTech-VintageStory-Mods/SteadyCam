@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Cambia la luminosità del bagliore.",
-  "Features.CamGlow.Command.Colour": "Cambia il colore del bagliore.",
-  "Features.CamGlow.Command.Enabled": "Attiva l'effetto di bagliore."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Cambia la luminosità del bagliore.",
+    "Features.CamGlow.Command.Colour":  "Cambia il colore del bagliore.",
+    "Features.CamGlow.Command.Enabled":  "Attiva o disattiva l\u0027effetto luminoso."
 }

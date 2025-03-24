@@ -7,7 +7,7 @@
     "steadycam",
     Description = "Additions, tweaks, and fixes, for camera accounts in Spectator Mode.",
     Side = "Universal",
-    Version = "1.5.3",
+    Version = "1.5.4",
     NetworkVersion = "1.0.0",
     Website = "https://apachegaming.net",
     Contributors = ["Apache"],

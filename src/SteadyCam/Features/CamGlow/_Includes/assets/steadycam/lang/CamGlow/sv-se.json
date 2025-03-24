@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Ändra ljusstyrkan på glöden.",
-  "Features.CamGlow.Command.Colour": "Ändra färgen på glöden.",
-  "Features.CamGlow.Command.Enabled": "Byt glöd-effekt."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Ändra ljusstyrkan på glöden.",
+    "Features.CamGlow.Command.Colour":  "Ändra färgen på glöden.",
+    "Features.CamGlow.Command.Enabled":  "Växla den glödande effekten."
 }

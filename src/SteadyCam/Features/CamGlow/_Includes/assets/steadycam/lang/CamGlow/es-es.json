@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Cambia el brillo del resplandor.",
-  "Features.CamGlow.Command.Colour": "Cambia el color del resplandor.",
-  "Features.CamGlow.Command.Enabled": "Activa el efecto de resplandor."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Cambia el brillo del resplandor.",
+    "Features.CamGlow.Command.Colour":  "Cambia el color del resplandor.",
+    "Features.CamGlow.Command.Enabled":  "Alterna el efecto brillante."
 }

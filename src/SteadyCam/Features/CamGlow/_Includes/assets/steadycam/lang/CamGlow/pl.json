@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Zmień jasność blasku.",
-  "Features.CamGlow.Command.Colour": "Zmień kolor blasku.",
-  "Features.CamGlow.Command.Enabled": "Włącz efekt blasku."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Zmień jasność blasku.",
+    "Features.CamGlow.Command.Colour":  "Zmień kolor blasku.",
+    "Features.CamGlow.Command.Enabled":  "Przełącz efekt świecenia."
 }

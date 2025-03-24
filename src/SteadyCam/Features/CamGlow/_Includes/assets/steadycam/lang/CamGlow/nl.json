@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Wijzig de helderheid van de gloed.",
-  "Features.CamGlow.Command.Colour": "Wijzig de kleur van de gloed.",
-  "Features.CamGlow.Command.Enabled": "Schakel het gloei-effect in."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Verander de helderheid van de gloed.",
+    "Features.CamGlow.Command.Colour":  "Verander de kleur van de gloed.",
+    "Features.CamGlow.Command.Enabled":  "Schakel het gloeieffect in."
 }

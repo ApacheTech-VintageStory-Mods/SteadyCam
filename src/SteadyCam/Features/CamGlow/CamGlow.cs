@@ -15,7 +15,7 @@ public class CamGlow : ClientModSystem, IClientServiceRegistrar
 
     private static string L(string path, params string[] args)
     {
-        return LangEx.FeatureString("CamGlow", path, args);
+        return LangEx.FeatureString("CamGlow.Command", path, args);
     }
 
     public override void StartClientSide(ICoreClientAPI api)

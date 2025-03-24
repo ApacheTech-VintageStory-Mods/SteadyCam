@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "Змініть яскравість сяйва.",
-  "Features.CamGlow.Command.Colour": "Змініть колір сяйва.",
-  "Features.CamGlow.Command.Enabled": "Перемкнути ефект сяйва."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "Змініть яскравість світіння.",
+    "Features.CamGlow.Command.Colour":  "Змініть колір світіння.",
+    "Features.CamGlow.Command.Enabled":  "Перемкніть ефект світіння."
 }

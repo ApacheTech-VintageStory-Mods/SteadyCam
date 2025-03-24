@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "빛의 밝기를 변경합니다.",
-  "Features.CamGlow.Command.Colour": "빛의 색상을 변경합니다.",
-  "Features.CamGlow.Command.Enabled": "빛나는 효과를 전환합니다."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "글로우의 밝기를 변경합니다.",
+    "Features.CamGlow.Command.Colour":  "광선의 색상을 변경합니다.",
+    "Features.CamGlow.Command.Enabled":  "빛나는 효과를 토글합니다."
 }

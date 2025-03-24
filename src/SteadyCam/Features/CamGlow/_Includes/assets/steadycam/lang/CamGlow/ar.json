@@ -1,5 +1,5 @@
-{
-  "Features.CamGlow.Command.Brightness": "تغيير سطوع التوهج.",
-  "Features.CamGlow.Command.Colour": "تغيير لون التوهج.",
-  "Features.CamGlow.Command.Enabled": "تبديل تأثير التوهج."
+﻿{
+    "Features.CamGlow.Command.Brightness":  "تغيير سطوع التوهج.",
+    "Features.CamGlow.Command.Colour":  "تغيير لون التوهج.",
+    "Features.CamGlow.Command.Enabled":  "قم بتبديل التأثير المتوهج."
 }
